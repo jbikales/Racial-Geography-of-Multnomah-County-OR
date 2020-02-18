@@ -1,0 +1,16 @@
+---
+title: "maps 2-18-20"
+author: "James Bikales"
+date: "2/18/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+```{r}
+library(tidycensus)
+
+census_api_key("9f9584127dd506cdaf80bdb78927e9c01c12f2b8")
+```
+
